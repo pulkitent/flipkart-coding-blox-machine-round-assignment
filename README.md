@@ -1,10 +1,10 @@
 # Problem Statement
 
-![if screenshot1 of problem statement not visible then check problemStatement1.png in repo](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement1.png)
+![ if screenshot1 of problem statement not loaded then check problemStatement1.png in repo ](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement1.png)
 
-![if screenshot1 of problem statement not visible then check problemStatement2.png in repo](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement2.png)
+![ if screenshot1 of problem statement not loaded then check problemStatement2.png in repo ](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement2.png)
 
-![if screenshot1 of problem statement not visible then check problemStatement3.png in repo](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement3.png)
+![ if screenshot1 of problem statement not loaded then check problemStatement3.png in repo ](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement3.png)
 
 
 # What are the company's expectations:
