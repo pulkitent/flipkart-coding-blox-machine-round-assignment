@@ -7,62 +7,86 @@
 ![ if screenshot1 of problem statement not loaded then check problemStatement3.png in repo ](https://raw.githubusercontent.com/pulkitent/coding-blox-flipkart-machine-round/master/problemStatement3.png)
 
 
-# What are the company's expectations:
+# What the company is looking for or what are the company's expectations?
 
-1. You can put sample data it into a file, test case or main driver program itself.
-2. Code should be demoable. Either by using a main driver program or test cases.
-3. Code should be modular. Code should have basic OO design. Please do not jam in
-   responsibilities of one class into another.
-4. Code should be extensible. Wherever applicable, use interfaces and contracts between different
-   methods. It should be easy to add/remove functionality without re-writing the entire codebase.
-5. Code should handle edge cases properly and fail gracefully.
-6. Code should be legible, readable and DRY.
+They are looking for people who can write code that has flexibility built-in, by adhering to the principles of Object-Oriented Development, and have the ability to deal with the real-life constraints/trade-offs while designing a system.
 
-# Further in depth company's expectations:
+It is important to note that they are not looking for a GUI and they are not assessing you on the capabilities around code required to do the I/O. The focus is on the overall design. So, while building a solution, it would be nicer (not mandatory) if the input to the code is provided either via unit tests or a file. Using a command-line (for input) can be tedious and difficult to test, so it is best avoided (again not mandatory). Following is a list of things to keep in mind, before you submit your code for any LLD/OOD/OOPs round:
 
-They are looking for people who can write code that has flexibility built in, by adhering to the principles of Object
-Oriented Development, and have the ability to deal with the real-life constraints / trade-offs while designing a system.
+1. Clear identification of domain entities or classes and their relations with appropriate object modeling using composition.
 
-It is important to note that they are not looking for a GUI and they are not assessing you on the capabilities around
-code required to do the I/O. The focus is on the overall design. So, while building a solution, it would be nicer if
-input to the code is provided either via unit tests or a file. Using command line (for input) can be tedious and
-difficult to test, so it is best avoided. Following is a list of things to keep in mind, before you submit your code :
+2. Functionality should not be dumped in a single class, method, or file (don't create God class).
 
-1. Is behaviour of an object distinguished from its state and is the state encapsulated?
+3. Write a clean Code with clear intention so as to have good readability (Proper Naming Conventions, Self-documenting code, Avoid redundant commenting, etc).
 
-2. Have you applied SOLID principles to your code?
+3. Clear and logical separation of responsibilities with proper boundaries (emphasis on single responsibility (SRP) for high cohesion).
 
-3. Have you applied principles of YAGNI and KISS (additional info here)?
+4. Have you applied the principles of YAGNI and KISS?
 
-4. Have you looked at basic refactoring to improve design of your code?
+5. Have you applied SOLID principles to your code?
 
-5. Finally, and foremost, are the principles applied in a pragmatic way.
+6. Is the behavior of an object distinguished from its state and is the state encapsulated? 
 
-Simplicity is the strongest of the trait of a piece of code. However, easily written code may not necessarily be simple
-code.
+7. Have you looked at basic refactoring to improve the design of your code?
 
-# Things I tried to follow :
+8. Are the principles applied in a pragmatic way.
 
-1. Tried to create all the required domain entities/models as per problem statement
+9. Code should be easily extensible & maintainable
 
-2. Tried not to break encapsulation by avoiding getters & setters (as much as possible)
+11. Atomicity and Coverage of Unit Tests.
 
-3. Tried to have immutable state with value objects (as much as possible) so as to avoid concurrency issues (Thread
-   safety)
+**Simplicity is the strongest trait of a piece of code. However, easily written code may not necessarily be simple code.**
 
-4. Tried to have readable methods & variables naming so as to clear the intention
-   (4 rules of simple design).
 
-6. Tried to avoid code duplication by refactoring/reusing duplicate code (DRY)
-   but still code duplication can be improved if given more time
+# Why LLD/OOD/OOPs in software engineering interviews?
 
-7. Didn't make un-necessary interfaces as per YAGNI principles because for now I don't feel the need for the same (Yes,
-   I am aware of this principle also - "Program to interfaces rather than concrete implementation")
+So main reason behind asking this kind of problems in an interview is to see whether a candidate can do the following:
 
-# Things I could have done/improved if given more time :
+1. Can a candidate write a working code in a given short span of time? So as to measure his/her delivery capability?
 
-1. TDD with 100% code coverage
+2. Can a candidate write highly readable, maintainable & extensible code? The intention must be clear by reading the code (Check 4 rules of simple design)
 
-3. Level of indentation can be further reduced in some methods by breaking them into smaller methods
+3. Can a candidate follow the principle of DRY (Don't Repeat Yourself) and avoid breaking encapsulation by following or Fat model pattern or Domain-Driven Design(DDD)? (Read tell don't ask principle and Law Demeter)
 
-4. Encapsulation of behaviour in some classes can be further improved
+4. Can a candidate achieve the solution with a minimum number of elements using the YAGNI principle (that is without creating unnecessary interfaces etc)?
+
+
+# Rules they want you to follow:
+
+You should not use any external libraries to solve this problem, but you can use external libraries or tools for building or testing purposes. Specifically, you can use unit-testing libraries or build tools available for your chosen language (e.g., JUnit, Ant, NUnit, Rspec, Rake, etc.).
+
+They assess a number of things including the design aspect of your solution and your object-oriented programming skills. While these are small problems, They expect you to submit what you believe is production-quality code; code that you’d be able to run, maintain and evolve. You don’t need to gold plate your solution, however, we are looking for something more than a bare-bones algorithm.
+
+
+# Things I tried to follow in this project/repo:
+
+1. Tried to create all the required domain entities/models as per the problem statement.
+
+2. Tried not to break encapsulation by avoiding getters & setters (as much as possible).
+
+3. Tried to have an immutable state with value objects (as much as possible) so as to avoid concurrency issues (Thread safety).
+
+4. Tried to have readable methods & variables naming so as to clear the intention (4 rules of simple design).
+
+5. Tried to have small & logical commits.
+
+6. Tried to avoid code duplication by refactoring/reusing duplicate code (DRY).
+
+7. Didn't make interfaces as per YAGNI principles because for now, I don't feel the need for the same (Yes, I am aware of this principle also - "Program to interfaces rather than concrete implementation").
+
+8. Tried to put some comments so as to make business logic more understandable.
+
+9. Wrote the job on every class so as to clear its use case.
+
+
+# Things I could have done/improved in this project/repo if given more time :
+
+1. TDD with 100% code coverage.
+
+2. Code duplication can be further reduced to some extent.
+
+3. Level of indentation can be further reduced in some methods by breaking them into smaller methods.
+
+4. Encapsulation of behavior in some classes can be further improved.
+
+5. More mocking and stubbing of test data in unit tests.
